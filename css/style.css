@@ -1,0 +1,39 @@
+body {
+    color: #fff;
+}
+.pagination {
+    position: relative;
+    z-index: 100;
+    width: 100%;
+}
+.prev {
+    float: left;
+    font-size: 2rem;
+    list-style: none;
+}
+h1 {
+    font-weight: bold;
+    text-align: center;
+}
+p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+.disabled {
+    cursor: not-allowed;
+}
+.next {
+    float: right;
+    font-size: 2rem;
+    list-style: none;
+}
+.carousel-elements {
+    overflow: hidden;
+}
+.blocks {
+    background-size:cover;
+    background-repeat: no-repeat;
+    float:left;
+    width:50%;
+    min-height: 25rem;
+}
